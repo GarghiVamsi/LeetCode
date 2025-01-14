@@ -1,3 +1,3 @@
 print ("hello World!")
 
-asd
+print ("hello World!")
