@@ -78,4 +78,8 @@ class Solution(object):
         :type extraCandies: int
         :rtype: List[bool]
         """
-        
+        maxCandies = max(candies)
+        result = []
+        for i in range(len(candies)):            
+            result.append(candies[i] + extraCandies >= maxCandies)
+        return result
