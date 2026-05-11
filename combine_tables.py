@@ -34,6 +34,5 @@ addressId = 1 contains information about the address of personId = 2.
 #Solution
 
 Select p.firstName, p.lastName, a.city, a.state
-from Person p
+from Person p 
 left join Address a on p.personId = a.personId
-where a.addressId is not null;
